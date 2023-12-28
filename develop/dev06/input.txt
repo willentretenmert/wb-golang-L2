@@ -1,0 +1,4 @@
+winter:white:snow:frost
+spring:green:grass:warm
+summer:colorful:blossom:hot
+autumn:yellow:leaves:cool

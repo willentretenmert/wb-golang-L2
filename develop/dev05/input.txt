@@ -1,0 +1,31 @@
+1. This is a sample text file for testing the grep program with various flags.
+2. You can use the -A (after) flag to print +3 lines after a match.
+3. Similarly, the -B (before) flag can be used to print +2 lines before a match.
+4. The -C (context) flag combines -A and -B and prints ±4 lines around a match.
+5. You can also use the -c (count) flag to get the count of matching lines.
+6. The -i (ignore-case) flag allows you to ignore case while matching.
+7. To invert the match, use the -v (invert) flag.
+8. The -F (fixed) flag matches the exact string, not a pattern.
+9. Use the -n (line num) flag to print line numbers along with matching lines.
+10. End of the file.
+
+This is a test.
+Line with context.
+Another line with context.
+Match line 1.
+After match line 1.
+After match line 2.
+After match line 3.
+Before match line 1.
+Before match line 2.
+Context line before match.
+Context line after match.
+Count line 1.
+Count line 2.
+Count line 3.
+Ignore case TEST.
+Invert this line.
+This is a fixed pattern.
+Line number 1.
+Line number 2.
+Line number 3.
